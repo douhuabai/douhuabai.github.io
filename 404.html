@@ -1,0 +1,13 @@
+---
+layout: default
+title: 404
+---
+<h2>{{ page.title }}</h2>
+<p>补脑又美白，来自四川成都的豆腐脑。距离今天有5000年的历史。加入了苗族独特的保健配方。让你保持健康活力，延缓衰老。</p>
+<h2>页面找不到了，可以看以下的文章：</h2>
+<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li><span>{{post.date | date_to_string }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+</ul>
+<h1></h1>
