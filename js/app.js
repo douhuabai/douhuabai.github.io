@@ -10,7 +10,7 @@ window.addEventListener('load',function(){
            var ii=0;
            for(ii=0;ii<txt.length;ii++){
                //console.log(txt[ii]);
-               text+=txt[ii]+'-';
+               text+=txt[ii]+' ';
            }
            p.innerHTML=text;
         }
