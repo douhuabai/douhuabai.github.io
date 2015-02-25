@@ -7,12 +7,16 @@ window.addEventListener('load',function(){
         if(txt.indexOf('<')==-1){
            console.log(txt); 
            var text='';
-            var ii=0;
-           for(ii=0;i<txt.length;ii++){
-               text+='';
-               text+=txt[ii];
+           var ii=0;
+           for(ii=0;ii<txt.length;ii++){
+               //console.log(txt[ii]);
+               text+=txt[ii]+'-';
            }
            p.innerHTML=text;
         }
     }
 });
+/*
+
+           
+*/
