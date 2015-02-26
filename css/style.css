@@ -82,7 +82,7 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
-p{
+.markdown p{
     letter-spacing: -2px;
 }
 @media all and (max-width: 600px){
